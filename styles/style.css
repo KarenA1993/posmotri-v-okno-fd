@@ -19,7 +19,6 @@ html {
   background-color: #1b1919;
   justify-content: center;
   align-items: center;
-  padding-bottom: 38px;
 }
 
 h1,
@@ -60,10 +59,9 @@ ol {
   align-items: center;
   justify-content: end;
   width: 1140px;
-  height: 534px;
   gap: 30px;
   margin-top: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 90px;
 }
 
 .search-form {
@@ -87,7 +85,7 @@ ol {
 
 .content__list {
   display: flex;
-  gap: 30px;
+  gap: 29px;
   flex-direction: column;
 }
 
@@ -95,7 +93,7 @@ ol {
   justify-items: start;
   height: 100%;
   width: 100%;
-  padding-bottom: 20px;
+  padding-top: 50px;
 }
 .result {
   align-self: flex-end;
@@ -106,7 +104,6 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 2px;
 }
 
 .result__video {
@@ -114,6 +111,7 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  padding-bottom: 18px;
 }
 
 .content__video-card {
